@@ -24,13 +24,13 @@ document.onkeyup = function(event) {
         }else if (userGuess == computerGuess){
             ties++;
         }  
-        var displayWins = "wins:" + wins + " ";
+        var displayWins = wins;
         document.querySelector('#wins').innerHTML = displayWins;
 
-        var displayLosses = "losses:" + losses + " ";
+        var displayLosses = losses;
         document.querySelector('#losses').innerHTML = displayLosses;
 
-        var displayTies = "ties:" + ties + " ";
+        var displayTies = ties;
         document.querySelector('#ties').innerHTML = displayTies;
 
         var displayUserGuess = userGuess;

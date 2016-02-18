@@ -57,11 +57,37 @@ html, body {
 }
 .scores{
     position: relative;
-	margin: 0 auto;
+	margin: -64px 0 0 80px;
 	z-index: 1;
 }
 #scorecard{
-	margin: -64px auto;
+	margin: -186px auto;
 	height: 300px;
 	width: 300px;
+}
+.scoreboardLabels{
+	padding: 20px;
+	font-size: 18px;
+	font-family: impact;
+}
+#scoreboardLabels{
+	min-width: 250px;
+}
+#wins{
+	margin-left: 25px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+#losses{
+	margin-left: 12px;
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+#ties{
+	margin-left: 32px;
+	background-color: black;
+	color: white;
+	padding: 10px;
 }
