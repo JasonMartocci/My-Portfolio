@@ -10,7 +10,7 @@ html, body {
 }
 #game{
     position: relative;
-	margin: 0 auto;
+	margin: 10px 0 0 150px;
 }
 .content{
 	margin: 10px auto;
