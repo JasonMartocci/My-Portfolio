@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minecraft Hangman</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body onload="newGame()">
+<div class="wrapper">
+	<div class="header">
+		<div class="logo"><img src="assets/images/minecraft_logo.png" alt="Minecraft Logo"><br><h1>Welcome to Minecraft Hangman!</h1></div>
+	</div>
+	<div class="container">
+		<div class="wordguess">
+			<div id="placeholder"></div>
+		</div>
+	</div>
+	<div class="blanksign">
+		<div class="results_wins">
+		   Wins: <span id="wins"></span>
+		</div>
+		<div class="results_losses">
+		   Losses: <span id="losses"></span>
+		</div>
+		<div id="gameStatus"></div>
+	</div>
+	<div class="blanksign">
+		<div class="guesses_left">
+		   Guesses Remaining: <span id="guessesLeft"></span>
+		</div>
+		<div class="letters_guessed">
+		   Letters Already Guessed:<br><div id="lettersGuessed"></div>
+		</div>
+	</div>
+	<div>
+<!-- 		<ul id="alphabet">
+			<li id="a" onclick="removeLetter('a'); replaceLetter('a')">a</li>
+			<li id="b" onclick="removeLetter('b'); replaceLetter('b')">b</li>
+			<li id="c" onclick="removeLetter('c'); replaceLetter('c')">c</li>
+			<li id="d" onclick="removeLetter('d'); replaceLetter('d')">d</li>
+			<li id="e" onclick="removeLetter('e'); replaceLetter('e')">e</li>
+			<li id="f" onclick="removeLetter('f'); replaceLetter('f')">f</li>
+			<li id="g" onclick="removeLetter('g'); replaceLetter('g')">g</li>
+			<li id="h" onclick="removeLetter('h'); replaceLetter('h')">h</li>
+			<li id="i" onclick="removeLetter('i'); replaceLetter('i')">i</li>
+			<li id="j" onclick="removeLetter('j'); replaceLetter('j')">j</li>
+			<li id="k" onclick="removeLetter('k'); replaceLetter('k')">k</li>
+			<li id="l" onclick="removeLetter('l'); replaceLetter('l')">l</li>
+			<li id="m" onclick="removeLetter('m'); replaceLetter('m')">m</li>
+			<li id="n" onclick="removeLetter('n'); replaceLetter('n')">n</li>
+			<li id="o" onclick="removeLetter('o'); replaceLetter('o')">o</li>
+			<li id="p" onclick="removeLetter('p'); replaceLetter('p')">p</li>
+			<li id="q" onclick="removeLetter('q'); replaceLetter('q')">q</li>
+			<li id="r" onclick="removeLetter('r'); replaceLetter('r')">r</li>
+			<li id="s" onclick="removeLetter('s'); replaceLetter('s')">s</li>
+			<li id="t" onclick="removeLetter('t'); replaceLetter('t')">t</li>
+			<li id="u" onclick="removeLetter('u'); replaceLetter('u')">u</li>
+			<li id="v" onclick="removeLetter('v'); replaceLetter('v')">v</li>
+			<li id="w" onclick="removeLetter('w'); replaceLetter('w')">w</li>
+			<li id="x" onclick="removeLetter('x'); replaceLetter('x')">x</li>
+			<li id="y" onclick="removeLetter('y'); replaceLetter('y')">y</li>
+			<li id="z" onclick="removeLetter('z'); replaceLetter('z')">z</li>
+		</ul> -->
+	</div>
+</div>
+<!-- <embed src="assets/music/Minecraft-Background_Music_1.mp3" AUTOSTART="true" HIDDEN="True" LOOP="True"></embed> -->
+</body>
+</html>
