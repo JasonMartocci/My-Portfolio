@@ -58,13 +58,7 @@ document.onkeyup = function(event) {
     }
 }
 
-var userGuess = {name: 'r'};
-function gotoNode(userGuess) {
-    alert(userGuess);
-    mobileGame();
-}  
-
-
+// This function is used to work on Mobile Devices.
 function mobileGame(txt) {
     var userGuess = txt;
     var computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
