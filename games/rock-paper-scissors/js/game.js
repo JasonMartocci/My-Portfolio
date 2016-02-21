@@ -26,24 +26,24 @@ document.onkeyup = function(event) {
         } 
 
         if (userGuess == 'r'){
-            var displayRock = "<img src='images/rock-user.png' alt='User Rock'>";
+            var displayRock = "<img class='hands' src='images/rock-user.png' alt='User Rock'>";
             document.querySelector("#userGuess").innerHTML = displayRock;
         } else if (userGuess == 'p'){
-            var displayPaper = "<img src='images/paper-user.png' alt='User Paper'>";
+            var displayPaper = "<img class='hands' src='images/paper-user.png' alt='User Paper'>";
             document.querySelector("#userGuess").innerHTML = displayPaper;
         }else if (userGuess == 's'){
-            var displayScissors = "<img src='images/scissors-user.png' alt='User Scissors'>";
+            var displayScissors = "<img class='hands' src='images/scissors-user.png' alt='User Scissors'>";
             document.querySelector("#userGuess").innerHTML = displayScissors;
         }
 
         if (computerGuess == 'r'){
-            var displayComputerRock = "<img src='images/rock-computer.png' alt='Cmputer Rock'>";
+            var displayComputerRock = "<img class='hands' src='images/rock-computer.png' alt='Cmputer Rock'>";
             document.querySelector("#computerGuess").innerHTML = displayComputerRock;
         } else if (computerGuess == 'p'){
-            var displayComputerPaper = "<img src='images/paper-computer.png' alt='Computer Paper'>";
+            var displayComputerPaper = "<img class='hands' src='images/paper-computer.png' alt='Computer Paper'>";
             document.querySelector("#computerGuess").innerHTML = displayComputerPaper;
         }else if (computerGuess == 's'){
-            var displayComputerScissors = "<img src='images/scissors-computer.png' alt='Computer Scissors'>";
+            var displayComputerScissors = "<img class='hands' src='images/scissors-computer.png' alt='Computer Scissors'>";
             document.querySelector("#computerGuess").innerHTML = displayComputerScissors;
         }
 
@@ -88,24 +88,24 @@ function mobileGame(txt) {
         } 
 
         if (userGuess == 'r'){
-            var displayRock = "<img src='images/rock-user.png' alt='User Rock'>";
+            var displayRock = "<img class='hands' src='images/rock-user.png' alt='User Rock'>";
             document.querySelector("#userGuess").innerHTML = displayRock;
         } else if (userGuess == 'p'){
-            var displayPaper = "<img src='images/paper-user.png' alt='User Paper'>";
+            var displayPaper = "<img class='hands' src='images/paper-user.png' alt='User Paper'>";
             document.querySelector("#userGuess").innerHTML = displayPaper;
         }else if (userGuess == 's'){
-            var displayScissors = "<img src='images/scissors-user.png' alt='User Scissors'>";
+            var displayScissors = "<img class='hands' src='images/scissors-user.png' alt='User Scissors'>";
             document.querySelector("#userGuess").innerHTML = displayScissors;
         }
 
         if (computerGuess == 'r'){
-            var displayComputerRock = "<img src='images/rock-computer.png' alt='Cmputer Rock'>";
+            var displayComputerRock = "<img class='hands' src='images/rock-computer.png' alt='Cmputer Rock'>";
             document.querySelector("#computerGuess").innerHTML = displayComputerRock;
         } else if (computerGuess == 'p'){
-            var displayComputerPaper = "<img src='images/paper-computer.png' alt='Computer Paper'>";
+            var displayComputerPaper = "<img class='hands' src='images/paper-computer.png' alt='Computer Paper'>";
             document.querySelector("#computerGuess").innerHTML = displayComputerPaper;
         }else if (computerGuess == 's'){
-            var displayComputerScissors = "<img src='images/scissors-computer.png' alt='Computer Scissors'>";
+            var displayComputerScissors = "<img class='hands' src='images/scissors-computer.png' alt='Computer Scissors'>";
             document.querySelector("#computerGuess").innerHTML = displayComputerScissors;
         }
 

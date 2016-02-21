@@ -7,6 +7,9 @@ html, body {
 .wrapper{
 	margin: 0 auto;
 }
+.hands{
+	width: 230px;
+}
 #game{
     position: relative;
 	margin: 10px 0 0 150px;
@@ -102,11 +105,14 @@ html, body {
 
 	#mobileGameplay{
 		float: left;
-		margin-top: 10px;
+		margin-top: 8px;
 	}
 	.btns{
 		padding: 2px 0 0 0;
 		width:40px;
+	}
+	.hands{
+		width: 165px;
 	}
 	.content{
 		margin: 10px auto;
@@ -142,7 +148,7 @@ html, body {
 		width: 300px;
 	}
 	#losses{
-		margin-left: 11px;
+		margin-left: 10px;
 		background-color: black;
 		color: white;
 		padding: 10px;
@@ -190,6 +196,9 @@ html, body {
 	    height: 350px;
 	}
 
+	.hands{
+		width: 230px;
+	}
 	.scores{
 	    position: relative;
 		margin: 65px 0 0 80px;
