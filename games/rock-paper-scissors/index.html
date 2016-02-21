@@ -4,14 +4,20 @@
     <title>Rock Paper Scissors</title>
     <script src="js/game.js"></script>
     <link type="text/css" rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body></body>
 <div class="wrapper">
 	<div class="content">
 		<div class="row1"></div>
 		<div class="row2">
 			<div class="rps-instructions"><img class="rps-instructions" src="images/press-r-p-s.png" alt="Press R, P, S to start playing." /></div>
 			<div class="gamewrapper">
+				<div id="mobileGameplay">
+					<a href="#" onclick="mobileGame('r')"><img class="btns" src="images/rock.png" alt="Click for Rock" /></a><br><br>
+					<a href="#" onclick="mobileGame('p')"><img class="btns" src="images/paper.png" alt="Click for Paper" /></a><br><br>
+					<a href="#" onclick="mobileGame('s')"><img class="btns" src="images/scissors.png" alt="Click for Scissors" /></a>
+				</div>
 				<div id="game">
 					<div class="userGuess"><span id="userGuess"></span></div>
 					<div class="computerGuess"><span id="computerGuess"></span></div>

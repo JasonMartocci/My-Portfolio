@@ -4,8 +4,8 @@ if ( !$_POST ) exit;
 if ( !defined( "PHP_EOL" ) ) define( "PHP_EOL", "\r\n" );
 
 
-$to = "yourmail@yourdomain.com";
-$subject = "Website contact form ";
+$to = "martoccijason@gmail.com";
+$subject = "Rutgers Coding Bootcamp Contact Form ";
 
 
 
