@@ -100,6 +100,10 @@ html, body {
 /* Start of phone 640px width css styling */
 @media only screen and (max-width: 640px) {
 
+	#mobileGameplay{
+		float: left;
+		margin-top: 10px;
+	}
 	.btns{
 		padding: 2px 0 0 0;
 		width:40px;
