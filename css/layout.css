@@ -87,7 +87,9 @@ Description: layout styles
 
 /* NEKO CSS FRAMEWORK
 ================================================== */
-
+.portfolio-img{
+	border: 6px solid #3D6D91;
+}
 .iconRounded{
 	border-radius: 50%;
 	width: 40px;
