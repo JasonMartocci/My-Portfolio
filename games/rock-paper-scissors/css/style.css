@@ -14,6 +14,9 @@ html, body {
 #mobileGameplay{
 	float: left;
 }
+.btns{
+	width:90px;
+}
 .content{
 	margin: 10px auto;
 	width:800px;
@@ -96,6 +99,11 @@ html, body {
 
 /* Start of phone 640px width css styling */
 @media only screen and (max-width: 640px) {
+
+	.btns{
+		padding: 2px 0 0 0;
+		width:40px;
+	}
 	.content{
 		margin: 10px auto;
 		width: 600px;
@@ -151,6 +159,10 @@ html, body {
 
 /* Start of phone 480px width css styling */
 @media only screen and (max-width: 480px) {
+	.btns{
+		padding: 2px 0 0 0;
+		width: 90px;
+	}
 	.content{
 		margin: 10px auto;
 		width: 450px;
