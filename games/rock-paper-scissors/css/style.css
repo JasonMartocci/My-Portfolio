@@ -181,9 +181,13 @@ html, body {
 	.rps-instructions{
 	    position: relative;
 		margin: -55px auto;
-		width: 409px;
-		height: 58px;
+		width: 350px;
 		z-index: 1; 
+	}
+
+	#game{
+	    position: relative;
+		margin: 10px 0 0 100px;
 	}
 	.gamewrapper{
 	    position: relative;
@@ -195,9 +199,8 @@ html, body {
 	    width: 370px;
 	    height: 350px;
 	}
-
 	.hands{
-		width: 230px;
+		width: 200px;
 	}
 	.scores{
 	    position: relative;
