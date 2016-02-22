@@ -175,7 +175,7 @@ html, body {
 	}
 	.content{
 		margin: 10px auto;
-		width: 325px;
+		width: 340px;
 		background-color: #FEF667;
 	}
 	.rps-instructions{
@@ -192,7 +192,7 @@ html, body {
 		border-radius: 25px;
 	    border: 10px solid #FFD200;
 	    padding: 20px; 
-	    width: 250px;
+	    width: 270px;
 	}
 
 	#mobileGameplay{
@@ -202,7 +202,7 @@ html, body {
 		margin: 10px 0 0 150px;
 	}
 	.hands{
-		width: 180px;
+		width: 210px;
 		margin-left: -70px;
 	}
 	.scores{
@@ -218,6 +218,12 @@ html, body {
 	.row1{
 		background-color: #FEF667;
 		height: 60px;
+	}
+	#losses{
+		margin-left: 8px;
+		background-color: black;
+		color: white;
+		padding: 10px;
 	}
 	.row3{
 		margin-top: -100px;
