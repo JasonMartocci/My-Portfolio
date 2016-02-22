@@ -200,9 +200,7 @@ html, body {
 		width: 200px;
 	}
 	.scores{
-	    position: relative;
-		margin: 65px 0 0 80px;
-		z-index: 1;
+		display:none;
 	}
 	#scorecard{
 		display:none;
