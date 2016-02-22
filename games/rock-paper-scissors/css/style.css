@@ -175,28 +175,39 @@ html, body {
 	}
 	.content{
 		margin: 10px auto;
-		width: 400px;
+		width: 450px;
 		background-color: #FEF667;
 	}
 	.rps-instructions{
-	    display: none;
-	}
-
-	#game{
 	    position: relative;
-		margin: 10px 0 0 100px;
+		margin: -55px auto;
+		width: 409px;
+		height: 58px;
+		z-index: 1; 
 	}
 	.gamewrapper{
-	    display: none;
+	    position: relative;
+		background-color: #FFFFFF;
+		margin: 30px auto;
+		border-radius: 25px;
+	    border: 10px solid #FFD200;
+	    padding: 20px; 
+	    width: 370px;
+	    height: 350px;
 	}
+
 	.hands{
-		width: 200px;
+		width: 230px;
 	}
 	.scores{
-		display:none;
+	    position: relative;
+		margin: 65px 0 0 80px;
+		z-index: 1;
 	}
 	#scorecard{
-		display:none;
+		margin: -185px auto;
+		height: 300px;
+		width: 300px;
 	}
 	.row1{
 		background-color: #FEF667;
