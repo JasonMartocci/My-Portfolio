@@ -205,9 +205,7 @@ html, body {
 		z-index: 1;
 	}
 	#scorecard{
-		margin: -185px auto;
-		height: 300px;
-		width: 300px;
+		display:none;
 	}
 	.row1{
 		background-color: #FEF667;
