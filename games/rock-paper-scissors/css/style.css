@@ -225,6 +225,12 @@ html, body {
 		color: white;
 		padding: 10px;
 	}
+	#ties{
+		margin-left: 31px;
+		background-color: black;
+		color: white;
+		padding: 10px;
+	}
 	.row3{
 		margin-top: -100px;
 		border-top: 5px solid #FFD200;
