@@ -11,3 +11,7 @@ https://fathomless-brushlands-42770.herokuapp.com/games/rock-paper-scissors/inde
 Minecraft Hangman game.
 
 https://fathomless-brushlands-42770.herokuapp.com/games/hangman/index.html
+
+Plants vs Zombies RPG game.
+
+https://fathomless-brushlands-42770.herokuapp.com/games/rpg/index.html
