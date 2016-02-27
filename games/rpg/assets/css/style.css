@@ -1,0 +1,87 @@
+body {
+	background: url(../images/plants-vs-zombies-bg2.jpg);
+	background-repeat: no-repeat;
+}
+button{
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 18px;
+    font-size: 16px;
+
+}
+.clear {
+    width: 100%;
+    clear: both !important;
+    display: inline-block;
+}
+.wrapper{
+	width: 700px;
+	margin: 0 auto;
+	padding-left: 50px;
+}
+.subheader{
+	float:left;
+	width: 690px;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+}
+.row{/*
+	width: 700px;
+	margin-left: 530px;*/
+}
+.choose{
+	float: left;
+}
+.choose-hero {
+	z-index: 1;
+	color: white;
+	text-align: center;
+	width: 150px;
+	margin-bottom: 5px;
+	float: left;
+}
+.characters{
+	position: relative;
+	height: 175px;
+}
+.yourCharacter{
+	margin-top: 100px;
+}
+.your-char{
+	float: left;
+	width: 690px;
+}
+.enemies{
+	float:left;
+	width: 690px;
+}
+.fight-section{
+	float:left;
+	width: 690px;
+}
+.defender{
+	float:left;
+	width: 200px;
+}
+.choose-hero img {
+	position: relative;
+	z-index: -1;
+}
+.attack-report,
+.counter-report {
+	font-size: 18px;
+	color: white;
+	background-color: black;
+}
+.result {
+	font-size: 18px;
+	color: white;
+	background-color: black;
+}

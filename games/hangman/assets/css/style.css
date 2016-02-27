@@ -1,0 +1,101 @@
+body {
+  background: url(../images/minecraft_bg.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'minecraftfont', cursive;
+}
+h1 {
+  color: black;
+  font-size: 40px;
+}
+li{
+	display:inline;
+}
+.wrapper{
+  position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+.container{
+  position: relative;
+	width: 800px;
+	margin: 0 auto;
+}
+.header{
+  position: relative;
+  margin: 0 0 0 0;
+}
+.logo{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.wordguess{
+  position: relative;
+  margin: 0 auto;
+  background: url(../images/wordguess_bg.png);
+  width: 603px;
+  height: 63px;
+}
+#placeholder {
+  height: 100px;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 10px;
+  padding-top: 15px;
+}
+.blanksign{
+  position: relative;
+  background: url(../images/minecraft_blank_sign.png);
+  margin-top: 20px;
+  width: 378px;
+  height: 189px;
+}
+.results_wins{
+  position: relative;
+  padding-top: 6px;
+  margin: 0 0 0 20px;
+  font-size: 40px;
+}
+.results_losses{
+  position: relative;
+  margin: 23px 0 0 20px;
+  font-size: 40px;
+}
+.guesses_left{
+  position: relative;
+  padding-top: 26px;
+  margin: 0 0 0 20px;
+  font-size: 20px;
+}
+.letters_guessed{
+  position: relative;
+  margin: 43px 0 0 20px;
+  font-size: 20px;
+}
+.hangman{
+  position: relative;
+  float:right;
+  margin: 43px 0 0 20px;
+  font-size: 20px;
+}
+#lettersGuessed{
+  position: relative;
+  margin-top: 44px;
+  font-size: 18px;
+  width: 378px;
+}
+#gameStatus{
+  position: relative;
+  margin: 38px 0 0 20px;
+  font-size: 24px;
+}
+#wins {
+  font-size: 40px;
+}
+#losses {
+  font-size: 40px;
+}
