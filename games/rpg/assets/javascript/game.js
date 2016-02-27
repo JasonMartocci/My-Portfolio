@@ -88,11 +88,9 @@ function changeHealth() {
 	$('.defender .health').html(villain.health -= hero.attackPower);
 	$('.your-char .health').html(hero.health -= villain.counterAttack);
 	
-	$('.attack-report').html("You attacked " + villain.name + " for " + 
-		hero.attackPower + " damage.");
+	$('.attack-report').html("You attacked " + villain.name + " for " + hero.attackPower + " damage.");
 
-	$('.counter-report').html(villain.name + " attacked you back for " +
-		 villain.counterAttack + " damage.");
+	$('.counter-report').html(villain.name + " attacked you back for " + villain.counterAttack + " damage.");
 
 	hero.attackPower += hero.attackPowerConstant;
 
@@ -112,7 +110,7 @@ function changeHealth() {
     		});
 		}
 		if($('.enemies div').length == 0) {
-			$('.result').html("WINNER!");
+			$('.result').html("YOU WIN!");
 			$('.btn-attack').remove();
 			$('.fight-section').append('<button class="restart btn btn-danger">Restart Game</button>');
 			$('.restart').click(restart);
