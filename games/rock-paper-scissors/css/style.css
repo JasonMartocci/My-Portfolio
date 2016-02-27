@@ -2,7 +2,7 @@
 	margin: 0;
 }
 html, body {
-	background-color: #3E6D92;
+	background-color: #033EAA;
 }
 .wrapper{
 	margin: 0 auto;
@@ -170,34 +170,40 @@ html, body {
 /* Start of phone 480px width css styling */
 @media only screen and (max-width: 480px) {
 	.btns{
-		padding: 2px 0 0 0;
-		width: 90px;
+		padding: 0 0 0 0;
+		width: 80px;
 	}
 	.content{
 		margin: 10px auto;
-		width: 450px;
+		width: 340px;
 		background-color: #FEF667;
 	}
 	.rps-instructions{
 	    position: relative;
 		margin: -55px auto;
-		width: 409px;
+		width: 290px;
 		height: 58px;
 		z-index: 1; 
 	}
 	.gamewrapper{
 	    position: relative;
-		background-color: #FFFFFF;
+		background-color: white;
 		margin: 30px auto;
 		border-radius: 25px;
 	    border: 10px solid #FFD200;
 	    padding: 20px; 
-	    width: 370px;
-	    height: 350px;
+	    width: 270px;
 	}
 
+	#mobileGameplay{
+	}
+	#game{
+	    position: relative;
+		margin: 10px 0 0 150px;
+	}
 	.hands{
-		width: 230px;
+		width: 210px;
+		margin-left: -70px;
 	}
 	.scores{
 	    position: relative;
@@ -206,12 +212,30 @@ html, body {
 	}
 	#scorecard{
 		margin: -185px auto;
-		height: 300px;
+		height: 290px;
 		width: 300px;
 	}
 	.row1{
 		background-color: #FEF667;
 		height: 60px;
+	}
+	#wins{
+		margin-left: 26px;
+		background-color: black;
+		color: white;
+		padding: 10px;
+	}
+	#losses{
+		margin-left: 8px;
+		background-color: black;
+		color: white;
+		padding: 10px;
+	}
+	#ties{
+		margin-left: 31px;
+		background-color: black;
+		color: white;
+		padding: 10px;
 	}
 	.row3{
 		margin-top: -100px;
