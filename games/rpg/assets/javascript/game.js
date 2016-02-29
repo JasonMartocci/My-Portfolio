@@ -1,3 +1,4 @@
+// character list, started with an array changed to variables.
 var Peashooter = {
 	name: 'Peashooter',
 	health: 180,
@@ -30,6 +31,7 @@ var KernelPult = {
 	counterAttack: 10
 }
 
+// onclick functions to pick the characters to play the game once the document is ready.
 $(document).ready(function() {
 
 	$('.choose-hero').on('click', pickHero);
@@ -45,17 +47,21 @@ $(document).ready(function() {
 
 });
 
+// pick hero and append it to class choose-hero
 function pickHero() {
 	$('.enemies').append($(".choose-hero"));
 	$('.your-char').append(this);
 }
 
+
+// pick villain and append it to class defender
 function pickVillain(e){
 	$('.attack-report').empty();
 	$('.counter-report').empty();
     $('.defender').append(e.target);
 }
 
+// function to change health of characters as the game progresses 
 function changeHealth() {
 	var hero = $('.your-char div').attr('id');
 	if(hero == 'Peashooter') {
@@ -94,6 +100,7 @@ function changeHealth() {
 
 	hero.attackPower += hero.attackPowerConstant;
 
+	// status update of players depending on if you win or lose.
 	if(hero.health <= 0 || villain.health <= 0) {
 		if(hero.health <= 0) {
 			$('.result').html("YOU LOSE.");
@@ -118,6 +125,7 @@ function changeHealth() {
 	}
 }
 
+// restart function if game is over.
 function restart() {
 	location.reload();
 }
