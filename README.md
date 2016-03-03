@@ -8,10 +8,14 @@ Week 2 - The game of Rock, Paper, Scissors now responsive for mobile devices.
 
 https://fast-reef-27919.herokuapp.com/games/rock-paper-scissors/index.html
 
-Week 3 - Minecraft Hangman game.
+Week 3 - Minecraft Hangman.
 
 https://fast-reef-27919.herokuapp.com/games/hangman/index.html
 
-Week 4 - Plants vs Zombies RPG game.
+Week 4 - Plants vs Zombies RPG.
 
 https://fast-reef-27919.herokuapp.com/games/rpg/index.html
+
+Week 5 - Minecraft Trivia - now responsive for mobile devices
+
+https://fast-reef-27919.herokuapp.com/games/minecraft-trivia/index.html
