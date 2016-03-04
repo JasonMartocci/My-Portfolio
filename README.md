@@ -1,6 +1,6 @@
 This repo holds files for my portfolio site I am building in Rutgers Coding Bootcamp.
 
-You can view the site by clicking the link below:
+Week 1 - My Portfolio - updated weekly.
 
 https://fast-reef-27919.herokuapp.com/
 
