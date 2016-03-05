@@ -1,4 +1,4 @@
-This repo holds files for my portfolio site I am building in Rutgers Coding Bootcamp.
+This repo has the files for my portfolio site I am building in Rutgers Coding Bootcamp.
 
 Week 1 - My Portfolio - updated weekly.
 
