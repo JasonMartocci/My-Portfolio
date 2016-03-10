@@ -9,7 +9,7 @@ function buttonFeature(value){
     $('#search').on('click', function(e) {
       var searchFeature = ($('#formValueId').val());
       request = new XMLHttpRequest;
-      request.open('GET', 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q='+searchFeature, true);
+      request.open('GET', 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q='+searchFeature, true);
       var next = 1;
       var searchFeature = ($('#formValueId').val());
         e.preventDefault();
