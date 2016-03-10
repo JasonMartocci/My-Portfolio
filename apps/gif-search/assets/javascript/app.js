@@ -6,8 +6,7 @@ function buttonFeature(value){
 //document.addEventListener('DOMContentLoaded', function () {
   $(document).ready(function() {
 
-    $(document).on('click', '#search', function(e){
-    // $('#search').on('click', function(e) {
+    $('#search').on('click', function(e) {
       var searchFeature = ($('#formValueId').val());
       request = new XMLHttpRequest;
       request.open('GET', 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q='+searchFeature, true);
