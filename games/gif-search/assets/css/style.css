@@ -1,0 +1,100 @@
+body{
+	font-family: Helvetica;
+}
+.header{
+	background-color: #cccccc;
+	padding: 10px;
+}
+.logo{
+	float: left;
+	margin-top: -5px;
+	padding-right: 10px;
+}
+#newButton{
+	background-color: #F55555; 
+	border-radius: 4px;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;	
+}
+#formValueId{
+	width: 300px;
+	border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+}
+#search{
+	background-color: blue; 
+	width: 150px;
+	border-radius: 4px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.wrapper{
+  position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+.container{
+	margin: 0 auto;
+}
+.pause{
+    background: black;
+    text-align: center;
+    color: white;
+	margin: 5px;
+	padding: 5px;
+	float: left;
+}
+.imageResults{
+    background: black;
+    text-align: center;
+    color: white;
+	margin: 5px;
+	padding-bottom: 5px;
+	float: left;
+}
+/*#searchResults{
+	float: left;
+}*/
+
+
+/* Start of Mobile 640 width css styling */
+@media only screen and (max-width: 640px) {
+	#formValueId{
+		width: 100px;
+		border-radius: 4px;
+	    padding: 10px;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 14px;
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);	
+	}
+	#search{
+		background-color: blue; 
+		width: 100px;
+		border-radius: 4px;
+	    color: white;
+	    padding: 10px;
+	    text-align: center;
+	    text-decoration: none;
+	    display: inline-block;
+	    font-size: 16px;
+	    cursor: pointer;
+	    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	}
+}
