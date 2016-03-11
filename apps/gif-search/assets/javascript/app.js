@@ -2,10 +2,14 @@ function buttonFeature(value){
     request.open('GET', 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q='+value, true);
     request.send('GET', 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&q='+value, true);
 };
-
 //document.addEventListener('DOMContentLoaded', function () {
   $(document).ready(function() {
 
+    $("#input-append").submit(function(e) {
+        $('#search').trigger('click');
+        return false;
+    });
+    
     $('#search').on('click', function(e) {
       var searchFeature = ($('#formValueId').val());
       request = new XMLHttpRequest;
