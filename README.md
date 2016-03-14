@@ -20,6 +20,6 @@ Week 5 - Minecraft Trivia - now responsive for mobile devices
 
 https://fast-reef-27919.herokuapp.com/games/minecraft-trivia/index.html
 
-Week 6 - Gif Search
+Week 6 - Gif Search - now responsive 
 
 http://fast-reef-27919.herokuapp.com/apps/gif-search/index.html
