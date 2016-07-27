@@ -25,11 +25,12 @@ function buttonFeature(value){
       request.onload = function() {
         $("#searchResults").empty();
         for (var i = 0; i <= 20; i++) {
-          var slug = JSON.parse(request.responseText).data[i].slug;
-          var animated = JSON.parse(request.responseText).data[i].images.fixed_height.url;
-          var still = JSON.parse(request.responseText).data[i].images.fixed_height_still.url;
-          var rating = JSON.parse(request.responseText).data[i].rating;
-          var uID = JSON.parse(request.responseText).data[i].id;
+          var parsedResult = JSON.parse(request.responseText).data;
+          var slug = parsedResult[i].slug;
+          var animated = parsedResult[i].images.fixed_height.url;
+          var still = parsedResult[i].images.fixed_height_still.url;
+          var rating = parsedResult[i].rating;
+          var uID = parsedResult[i].id;
 
           var image = $('<img src = "'+animated+'"  alt="'+slug+'" class="pause" status="movingImage" id="'+uID+'" title="Rating:'+ rating +'"> ').attr('data-still', still);
 

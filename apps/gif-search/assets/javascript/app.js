@@ -35,8 +35,8 @@ $(document).ready(function() {
         var still = JSON.parse(request.responseText).data[i].images.fixed_height_still.url;
         var rating = JSON.parse(request.responseText).data[i].rating;
         var uID = JSON.parse(request.responseText).data[i].id;
-
-        var image = $('<img src = "'+animated+'"  alt="'+slug+'" class="pause" status="movingImage" id="'+uID+'" title="Rating:'+ rating +'"> ').attr('data-still', still);
+        var image = $('<img>').attr('src', animated).attr('alt', slug).addClass("pause").attr('status', "movingImage").attr('id', uID).attr('Rating:', rating).attr('data-still', still);
+        //var image = $('<img src = "'+animated+'"  alt="'+slug+'" class="pause" status="movingImage" id="'+uID+'" title="Rating:'+ rating +'"> ').attr('data-still', still);
 
         image.attr('data-animated', animated);
 
